@@ -1,0 +1,15 @@
+1. Extraia o ZIP.
+2. Envie os arquivos para a raiz do repositório GitHub (package.json na raiz).
+3. Importe o repositório na Vercel como Next.js e clique em Deploy.
+4. Adicione seu domínio em Settings > Domains.
+
+O editor já funciona assim.
+
+Para ativar contas, projetos salvos e comunidade:
+- Vercel > Storage/Marketplace > Neon (Postgres) > conectar ao projeto.
+- Faça Redeploy.
+- As tabelas são criadas automaticamente.
+
+Opcional: defina CLASS_INVITE_CODE nas variáveis de ambiente para exigir um código no cadastro.
+
+O README.md contém os detalhes. Não precisa adaptar o código, criar tabelas ou configurar login externo.

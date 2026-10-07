@@ -1,0 +1,1 @@
+export function isSameOrigin(req:Request){const origin=req.headers.get('origin');if(!origin)return true;try{const parsed=new URL(origin);if(!['http:','https:'].includes(parsed.protocol))return false;return parsed.origin===new URL(req.url).origin||parsed.host===req.headers.get('host')}catch{return false}}
